@@ -9,6 +9,13 @@
 #include <iostream>
 using namespace std;
 
+class A {
+	
+	public :
+	 int age;
+	 int height;
+	 A():age(20),height(173){}
+	};
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
